@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Threads</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="thread">
+      <h2>Threads de Espaço de Usuário</h2>
+      <div class="circle user-level"></div>
+      <p>Essa animação representa a natureza rápida e dinâmica das threads de espaço de usuário. Elas são rápidas para criar e gerenciar, mas podem ter problemas de escalonamento devido à sua natureza leve e independente.</p>
+    </div>
+    <div class="thread">
+      <h2>Threads de Espaço de Kernel</h2>
+      <div class="circle kernel-level"></div>
+      <p>A rotação contínua do círculo representa a estabilidade e robustez das threads de espaço de kernel. Elas são implementadas e gerenciadas pelo kernel do sistema operacional, oferecendo mais controle e eficiência no escalonamento.
+      </p>
+    </div>
+    <div class="thread">
+      <h2>Threads Leves</h2>
+      <div class="circle lightweight"></div>
+      <p>A translação suave do círculo representa a eficiência e leveza das threads leves. Elas são implementadas no nível de usuário e executadas em cima de threads de espaço de usuário, consumindo menos recursos do sistema.
+      </p>  
+    </div>
+    <div class="thread">
+      <h2>Threads Pesadas</h2>
+      <div class="circle heavyweight"></div>
+      <p>A redução de opacidade pode simbolizar o fato de que essas threads podem não ser tão visíveis ou acessíveis diretamente aos programas de usuário, pois operam em um nível mais profundo do sistema operacional.</p>
+    </div>
+  </div>
+</body>
+</html>
